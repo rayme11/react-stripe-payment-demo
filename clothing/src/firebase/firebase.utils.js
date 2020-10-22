@@ -3,14 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyBqQJ9mabt1E053HcIifyHiaesOcHYd5cc",
-    authDomain: "react-graphql-db-78c81.firebaseapp.com",
-    databaseURL: "https://react-graphql-db-78c81.firebaseio.com",
-    projectId: "react-graphql-db-78c81",
-    storageBucket: "react-graphql-db-78c81.appspot.com",
-    messagingSenderId: "618470361926",
-    appId: "1:618470361926:web:9768460a0059995ef77347"
-
+  apiKey: 'AIzaSyBqQJ9mabt1E053HcIifyHiaesOcHYd5cc',
+  authDomain: 'react-graphql-db-78c81.firebaseapp.com',
+  databaseURL: 'https://react-graphql-db-78c81.firebaseio.com',
+  projectId: 'react-graphql-db-78c81',
+  storageBucket: 'react-graphql-db-78c81.appspot.com',
+  messagingSenderId: '6184703619264',
+  appId: '1:618470361926:web:9768460a0059995ef77347'
 };
 
 firebase.initializeApp(config);
